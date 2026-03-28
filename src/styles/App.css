@@ -1,0 +1,36 @@
+.app {
+  background-color: #f0c0a0;
+  font-family: 'Pixar', sans-serif;
+  color: #4a90e2;
+  border: 2px solid #ffcc00;
+  border-radius: 15px;
+  padding: 20px;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.button {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #c70039;
+}
